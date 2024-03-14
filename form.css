@@ -1,0 +1,55 @@
+#header{
+    background-color:rgba(0,0,255,0.5);
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration-color: blue;
+}
+#h4{
+    text-align: center;
+    background-color: rgb(138, 158, 191);
+}
+#div{
+    line-height: 40px;
+   
+   
+}
+/* http://surl.li/rndpq*/
+/*http://surl.li/rndnc*/
+body{
+   /* background-image: url(' http://surl.li/rndpq');*/
+   background-image: radial-gradient(rgb(195, 129, 140),white);
+  }
+/*input*/
+  .margin{
+    margin: 5px 5px 5px 15px;
+    border-radius: 5px;
+    text-decoration-color: black;
+    border:black 2px solid;
+  }
+/*lable*/
+  #margin{
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  #select{
+    height:44px;
+    width:80px;
+    border:black 2px solid;
+    border-radius: 5px;
+  }
+
+  #button{
+    background-color: rgba(0, 0, 255,0.5);
+    border-radius:5px;
+    border:2px solid black;
+    color:black;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width:80px;
+  }
+  
