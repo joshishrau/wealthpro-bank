@@ -40,8 +40,8 @@
                   </li>
                 </ul>
                 <form class="d-flex">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <input class="form-control me-2" type="search" placeholder=" &#128269;Search Here..." aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" style="border-color: rgb(50, 153, 205);">Search</button>
                 </form>
               </div>
             </div>
@@ -49,6 +49,7 @@
     </header>
     <div id="header">
       <h2>Accounts Section</h2>
+      <img src="https://v.hdfcbank.com/content/dam/hdfc-aem-microsites/personal/images/sa-768x621.jpg">
       <p>
           We work hard to provide the best to our families so that they lead happy and comfortable life. 
           Certain events like unfortunate death of earning member, critical illness, medical emergencies, accidents, natural and man-made 
@@ -57,19 +58,19 @@
     <form>
    <h4 id="h4">PERSONAL INFORMATION</h4>
      <div id="div" >
-      <label id="margin">Name of Account Holder: </label>
+     <label id="margin">Name of Account Holder: </label>
     <select id="select">
       <option>Mr.</option>
       <option>Mrs.</option>
       <option>Miss</option>
   </select>&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="First Name"> &NonBreakingSpace; &NonBreakingSpace; <input class="margin" type="text" placeholder="Middle Name">&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="Last Name"><br>
  <br>
-    <label id="margin">Date of Birth: </label> <input class="margin" type="date" ><br> 
-    <label id="margin">Gender : </label>
+ <label id="margin">Date of Birth: </label> <input class="margin" type="date" ><br> 
+  <label id="margin">Gender : </label>
     <select id="select">
-      <option >Female</option>
-      <option >Male</option>
-      <option>Other</option>
+      &NonBreakingSpace; &NonBreakingSpace;<option >Female</option>
+      &NonBreakingSpace; &NonBreakingSpace;<option >Male</option>
+      &NonBreakingSpace; &NonBreakingSpace;<option>Other</option>
     </select><br>
     
    <label id="margin">Temporary Address: </label><br><input class="margin" type="text" placeholder="Street Address"><br><input class="margin" type="text" placeholder="Street Address Line2" > <br>
@@ -97,7 +98,7 @@
    <lable id="margin">Marital status: </lable><br>
    <input  type="radio" value="Single"><label id="margin">Single</label><br>
    <input type="radio" value="Married"><label id="margin">Married</label><br>
-   <input  type="radio" value="Don't Want To Share"><label>Don't Want To Share</label><br>
+   <input  type="radio" value="Don't Want To Share"><label id="margin">Don't Want To Share</label><br>
    <label id="margin">Contact Details: </label><br>
    <label id="margin">Mobile No.: </label><input class="margin" type="number" placeholder="Enter 10 digit">&NonBreakingSpace; &NonBreakingSpace;
    <label id="margin">Enail address: </label><input class="margin" type="email" placeholder="ex.abc@gmail.com">,<br>
@@ -112,7 +113,7 @@
 <hr>
 <h4 id="h4">ACCOUNT INFORMATION</h4>
 <hr>
-<div id="div"><label id="margin">Account Type : </label>
+<div id="div"><label id="margin" >Account Type : </label>
   <select id="select">
     <option>Saving Account</option>
     <option>Salary Account</option>
@@ -120,7 +121,7 @@
   </select><br>
   
   <lable id="margin">Account category</lable>
-  <select >
+  <select id="select">
     <option>Indivisual</option>
     <option>Joint</option>
   </select><br>
@@ -144,14 +145,19 @@
      <input type="Checkbox" value="No"><label style="font-weight: 600;">No</label>
      <input type="Checkbox" value="Maybe Later"><label style="font-weight: 600;">Maybe Later</label><br>
   
+  </div><hr>
+  <h4 id="h4">Document section</h4><hr>
+<div id="div">
+  <lable id="margin">Aadhaar Card : </lable><input type="file" class="margin">&NonBreakingSpace; &NonBreakingSpace;
   
-     <button id="button" type="submit">Submit</button>
-     
-     
-  
-     </div>
+  <lable id="margin">Nationality : </lable><input type="file" class="margin"><br>
+  <lable id="margin">Photo : </lable><input type="file" class="margin">&NonBreakingSpace; &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace; &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace; &NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;&NonBreakingSpace;
+  <lable id="margin">Pan Card : </lable><input type="file" class="margin"><br>
 
-   
+  <button id="button" type="submit">Submit</button>
+
+</div>
     </form>
+   
 </body>
 </html>
