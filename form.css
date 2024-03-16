@@ -1,26 +1,27 @@
 #header{
-    background-color:rgba(0,0,255,0.5);
+    background-color:rgba(100, 234, 134, 0.789);
     align-items: center;
 }
 
 h2{
     text-align: center;
-    text-decoration-color: blue;
+    text-decoration-color: rgba(100, 234, 134, 0.789);
 }
 #h4{
     text-align: center;
-    background-color: rgb(138, 158, 191);
+    background-color: rgb(49, 89, 154);
 }
 #div{
     line-height: 40px;
-   
+    padding:100px;
+   border:2px solid black;
+   border-radius: 10px;
    
 }
-/* http://surl.li/rndpq*/
-/*http://surl.li/rndnc*/
+
 body{
-   /* background-image: url(' http://surl.li/rndpq');*/
-   background-image: radial-gradient(rgb(195, 129, 140),white);
+   
+   background-image: radial-gradient(rgba(100, 234, 134, 0.5),white);
   }
 /*input*/
   .margin{
@@ -32,13 +33,13 @@ body{
 /*lable*/
   #margin{
     margin-left: 15px;
-    font-weight: 600;
+    font-weight: 1000;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   #select{
     height:44px;
-    width:80px;
+    width:180px;
     border:black 2px solid;
     border-radius: 5px;
   }
@@ -48,8 +49,14 @@ body{
     border-radius:5px;
     border:2px solid black;
     color:black;
-    font-weight: 600;
+    font-weight: 800;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width:80px;
+    width:100px;
+    margin-left: 650px;
+    margin-top: 20px;
   }
-  
+  img{
+    width:100%;
+    height:700px;
+  }
+   
