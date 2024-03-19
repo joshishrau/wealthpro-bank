@@ -12,7 +12,7 @@
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">WPB</a>
+              <img id="image" src="image.png">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -49,7 +49,8 @@
     </header>
     <div id="header">
       <h2>Accounts Section</h2>
-      <img src="https://v.hdfcbank.com/content/dam/hdfc-aem-microsites/personal/images/sa-768x621.jpg">
+      <img id="img" src="https://v.hdfcbank.com/content/dam/hdfc-aem-microsites/personal/images/sa-768x621.jpg">
+     
       <p>
           We work hard to provide the best to our families so that they lead happy and comfortable life. 
           Certain events like unfortunate death of earning member, critical illness, medical emergencies, accidents, natural and man-made 
@@ -63,7 +64,7 @@
       <option>Mr.</option>
       <option>Mrs.</option>
       <option>Miss</option>
-  </select>&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="First Name"> &NonBreakingSpace; &NonBreakingSpace; <input class="margin" type="text" placeholder="Middle Name">&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="Last Name"><br>
+  </select>&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="First Name" required> &NonBreakingSpace; &NonBreakingSpace; <input class="margin" type="text" placeholder="Middle Name">&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="Last Name"><br>
  <br>
  <label id="margin">Date of Birth: </label> <input class="margin" type="date" ><br> 
   <label id="margin">Gender : </label>
@@ -96,18 +97,18 @@
 
    <br>
    <lable id="margin">Marital status: </lable><br>
-   <input  type="radio" value="Single"><label id="margin">Single</label><br>
-   <input type="radio" value="Married"><label id="margin">Married</label><br>
-   <input  type="radio" value="Don't Want To Share"><label id="margin">Don't Want To Share</label><br>
+   <input  type="checkbox" value="Single"><label id="margin">Single</label>
+   <input type="checkbox" value="Married"><label id="margin">Married</label>
+   <input  type="checkbox" value="Don't Want To Share"><label id="margin">Don't Want To Share</label><br>
    <label id="margin">Contact Details: </label><br>
-   <label id="margin">Mobile No.: </label><input class="margin" type="number" placeholder="Enter 10 digit">&NonBreakingSpace; &NonBreakingSpace;
+   <label id="margin">Mobile No.: </label><input class="margin" type="number" placeholder="Enter 10 digit" required>&NonBreakingSpace; &NonBreakingSpace;
    <label id="margin">Enail address: </label><input class="margin" type="email" placeholder="ex.abc@gmail.com">,<br>
 
    <label id="margin">Education Level : </label><br>
-   <input type="radio" vlaue="High School or Below"><label id="margin">High School or Below</label><br>
-   <input type="radio" vlaue="Undergraduate"><label id="margin">Undergraduate</label><br>
-   <input type="radio" vlaue="Masters Degree"><label id="margin">Masters Degree</label><br>
-   <input type="radio" vlaue="Phd"><label id="margin">Phd</label><br>
+   <input type="checkbox"  vlaue="High School or Below"><label id="margin">High School or Below</label>
+   <input type="checkbox" vlaue="Undergraduate"><label id="margin">Undergraduate</label>
+   <input type="checkbox" vlaue="Masters Degree"><label id="margin">Masters Degree</label>
+   <input type="checkbox" vlaue="Phd"><label id="margin">Phd</label><br>
      </div> 
     
 <hr>
@@ -131,7 +132,7 @@
     <option>Mr.</option>
     <option>Mrs.</option>
     <option>Miss</option>
-  </select>&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="First Name"> &NonBreakingSpace; &NonBreakingSpace; <input class="margin" type="text" placeholder="Middle Name">&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="Last Name"><br>
+  </select>&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="First Name" > &NonBreakingSpace; &NonBreakingSpace; <input class="margin" type="text" placeholder="Middle Name">&NonBreakingSpace; &NonBreakingSpace;<input class="margin" type="text" placeholder="Last Name"><br>
   <br>
      <label id="margin">Date of Birth: </label> <input  class="margin" type="date" ><br>
   
@@ -159,5 +160,29 @@
 </div>
     </form>
    
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social-container">
+          <img src="https://raw.githubusercontent.com/ArslanJajja/online-banking-website-design-with-html-css/78d05eb97430690475bd1376842c1ec0b36e9b15/images/icon-facebook.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/ArslanJajja/online-banking-website-design-with-html-css/78d05eb97430690475bd1376842c1ec0b36e9b15/images/icon-instagram.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/ArslanJajja/online-banking-website-design-with-html-css/78d05eb97430690475bd1376842c1ec0b36e9b15/images/icon-instagram.svg" alt="" />
+          <img src="https://raw.githubusercontent.com/ArslanJajja/online-banking-website-design-with-html-css/78d05eb97430690475bd1376842c1ec0b36e9b15/images/icon-pinterest.svg" alt="" />
+        </div>
+        <div class="menu">
+          <a href="#">About us</a>
+          <a href="#">Contact us</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="menu">
+          <a href="#">Carriers</a>
+          <a href="#">Support</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+      
+      <p>&#169;Copyright @ 2024</p>
+    
+      </div>
+    </footer>
 </body>
 </html>
