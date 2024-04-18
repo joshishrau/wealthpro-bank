@@ -1,0 +1,140 @@
+#image{
+    height:50px;
+    width:50px;
+}
+
+.bank{
+  
+    border-radius: 0px 0px 80px 0px;
+    padding-right: 30px;
+    
+   
+  }
+  #bank{
+    text-align: justify; 
+    font-size: 25px;
+    margin-right: 20px;
+    color: hsl(233, 19%, 48%);
+  }
+ 
+  .mydiv{
+    box-sizing: border-box;
+    background-color: rgb(51, 51, 122);
+    height: 200px;
+    margin:50px 50px 50px 50px;
+    border-radius: 0px 0px 50px;
+    padding-right: 30px;
+    width:1200px;
+    margin-left:150px;
+
+  }
+  
+  .div {
+    float: left;
+    width: 25%;
+    padding: 50px;
+   
+
+  }
+  
+  /* Clearfix (clear floats) */
+  .mydiv::after {
+    content: "";
+    clear: both;
+    display: table;
+  
+  }
+  #p{
+    text-decoration: solid;
+    line-height: 25px;
+    color:white;
+    font-weight: 700;
+  }
+ .container{
+  display:flex;
+  
+ }
+ .container img{
+  height:160px;
+  width:300px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-top: 50px;
+  
+ }
+  th,td{
+    padding:15px;
+
+  }
+ table{
+  line-height: 30px;
+  font-size: large;
+  font-weight: 500;
+  background-color: rgb(71, 184, 87);
+  margin-left: 300px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  border:2px solid rgb(179, 100, 21);
+  border-radius: 15px;
+ 
+  
+ }
+ #button{
+  margin-left:90px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: rgb(255, 182, 127);
+  color:black;
+  border-radius: 7px;
+  height:30px;
+ }
+
+
+  .footer {
+    background-color: hsl(233, 26%, 24%);
+    height: 30vh;
+  }
+  .footer-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 2rem;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .menu > a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 600;
+  }
+.social-container {
+    margin-top: 3rem;
+  }
+  .social-container > img {
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  .footer-container > button {
+    margin-top: 3rem;
+    padding: 12px 28px;
+    border: none;
+    outline-width: 0;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    font-weight: 400;
+    background-image: linear-gradient(
+      120deg,
+      hsl(192, 70%, 51%),
+      hsl(136, 65%, 51%)
+    );
+  }    
